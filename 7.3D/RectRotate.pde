@@ -6,6 +6,6 @@ void setup() {
 void draw() {
   background(255);
   translate(width/2, height/2);
-  rotate(frameCount*PI/60);
+  rotate(frameCount*PI/60); //Walk around the circumference
   rect(0, 0, width/2, height/2);
 }
