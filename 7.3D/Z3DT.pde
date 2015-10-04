@@ -1,0 +1,12 @@
+void setup() {
+  size(200, 200, P3D);
+  rectMode(CENTER);
+}
+
+void draw() {
+  background(0);
+  translate(width/2, height/2);
+  rotateX(frameCount*PI/60);
+  rotateY(frameCount*PI/60);
+  rect(0, 0, width/2, height/2);
+}
